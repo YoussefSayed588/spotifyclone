@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="main.css" />
+    <title>Spotify | Home</title>
+  </head>
+  <body>
+    <aside>
+      <img src="images/three-dots.svg" alt="" />
+      <ul>
+        <li class="active">
+          <img src="images/home.svg" alt="" />
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <img src="images/magnifying-glass.svg" alt="" />
+          <a href="#">Search</a>
+        </li>
+        <li>
+          <img src="images/library.svg" alt="" />
+          <a href="#">Your Library</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <img src="images/plus.svg" alt="" />
+          <a href="#">Create Playlist</a>
+        </li>
+        <li>
+          <img src="images/heart.svg" alt="" />
+          <a href="liked-songs/index.html">Liked Songs</a>
+        </li>
+      </ul>
+    </aside>
+    <main>
+      <h1>Sorry, This Page Isn't Available</h1>
+    </main>
+    <div id="player">
+      <div id="player-col-1">
+        <img src="" alt="" id="player-track-img" />
+        <div>
+          <a href="#" id="player-track-title"></a>
+          <a href="#" id="player-track-artist"></a>
+        </div>
+      </div>
+      <div id="player-col-2">
+        <div>
+          <img src="images/shuffle.svg" alt="" id="shuffle-btn" />
+          <img src="images/previous.svg" alt="" id="previous-btn" />
+          <img src="images/play.svg" alt="" id="playpause-btn" />
+          <img src="images/next.svg" alt="" id="next-btn" />
+          <img src="images/repeat.svg" alt="" id="repeat-btn" />
+        </div>
+        <div>
+          <span>0:00</span>
+          <input type="range" min="0" max="100" value="0" id="seek-slider" />
+          <span>0:00</span>
+        </div>
+      </div>
+      <div id="player-col-3">
+        <img src="images/speaker.svg" alt="" />
+        <input type="range" min="0" max="100" value="100" id="volume-slider" />
+      </div>
+      <audio src=""></audio>
+    </div>
+    <footer>
+      <a href="#" class="active">
+        <img src="images/home.svg" alt="" />
+        <p>Home</p>
+      </a>
+      <a href="#">
+        <img src="images/magnifying-glass.svg" alt="" />
+        <p>Search</p>
+      </a>
+      <a href="liked-songs/index.html">
+        <img src="images/library.svg" alt="" />
+        <p>Your Library</p>
+      </a>
+    </footer>
+  </body>
+</html>
